@@ -1,0 +1,21 @@
+{
+  "id": "b3f60a1c9d27",
+  "title": "AI at Work",
+  "description": "Understand how AI really works, write prompts that get good results, check what it tells you, and use it safely in everyday work. No coding needed. For developers, see Effective Vibecoding.",
+  "image": "cover.png",
+  "file": "ai-at-work.zip",
+  "version": "1.0.0",
+  "tags": [
+    "ai",
+    "productivity",
+    "prompting",
+    "beginner"
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-30",
+      "notes": "Initial release — 25 decks, 60 packs, 350 cards: how AI works, prompting, checking AI output, using AI safely, and everyday AI work tasks."
+    }
+  ]
+}

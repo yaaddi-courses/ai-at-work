@@ -1,0 +1,351 @@
+id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,explanation
+1,1,true_false,preview,2,Machine learning lets AI learn from examples.,,true,,,"True. Instead of following hand-written rules, machine learning finds patterns in many examples."
+2,1,multiple_choice,main,,What does machine learning do for AI?,Learns patterns|Follows rules|Stores passwords,0,,,Artificial intelligence is software doing human-like tasks; machine learning is how it learns patterns from many examples instead of fixed rules.
+3,1,multiple_choice,exercise,2,Which describes artificial intelligence?,Faster internet|Human-like tasks|Bigger televisions,1,,,"Artificial intelligence is software that does things we expect from a human mind, like understanding language."
+4,1,true_false,exercise,2,Machine learning needs a person to write every rule.,,false,,,False. Machine learning finds patterns in many examples instead of relying on hand-written rules.
+5,1,select_blank,exercise,2,Machine learning finds ___ in many examples.,passwords|pictures|patterns,2,,,"It studies many examples and picks up the patterns, rather than being told the rules."
+6,1,multiple_choice,exercise,2,Which task counts as AI?,Translating speech|Charging batteries|Printing documents,0,,,"Translating speech needs human-like language understanding, so it counts as AI."
+7,1,true_false,preview,8,"Generative AI creates new text, images or audio.",,true,,,True. Generative AI makes brand-new content instead of only sorting what exists.
+8,1,multiple_choice,main,,What does generative AI do?,Organises files|Creates content|Deletes records,1,,,"Generative AI makes brand-new content, such as text, images, audio or video, instead of only labelling what already exists."
+9,1,multiple_choice,exercise,8,Which is generative AI at work?,Sorting mail|Counting steps|Writing poems,2,,,"Writing a brand-new poem from a request is creating new content, which is what generative AI does."
+10,1,true_false,exercise,8,A tool drawing pictures from words is generative AI.,,true,,,True. Making a new image from a written description is a typical generative AI job.
+11,1,select_blank,exercise,8,Generative AI ___ new content.,creates|deletes|hides,0,,,"The word generative means it generates, or creates, new text, images, audio or video."
+12,2,true_false,preview,13,A large language model learns from huge amounts of text.,,true,,,True. It is trained on a vast amount of text before you ever use it.
+13,2,multiple_choice,main,,What is a large language model?,Searchable archive|Text-trained AI|Giant database,1,,,"A large language model (LLM) is AI trained on huge amounts of text, called training data, so it can read and write language."
+14,2,multiple_choice,exercise,13,What is training data?,Login credentials|Screen resolution|Learning examples,2,,,"Training data is the collection of examples, such as text, that an AI learns from before you use it."
+15,2,true_false,exercise,13,An LLM learns from huge amounts of text.,,true,,,True. That is why it can read and write human language.
+16,2,select_blank,exercise,13,An LLM is trained on huge amounts of ___.,text|batteries|coins,0,,,"LLM stands for large language model, and it learns language from huge amounts of text."
+17,2,multiple_choice,exercise,13,What is a large language model's job?,Prepare dinners|Process language|Drive vehicles,1,,,"It reads and writes human language, based on patterns learned from its training data."
+18,2,true_false,preview,19,A chatbot writes by predicting the next word.,,true,,,"True. It repeatedly guesses the most likely next word, which is how it builds a reply."
+19,2,multiple_choice,main,,How does a chatbot write its answer?,Searches pages|Copies you|Predicts words,2,,,A chatbot is a program you chat with. It writes using next-word prediction: repeatedly guessing the likely next word.
+20,2,multiple_choice,exercise,19,What is a chatbot?,Chat program|Photo editor|Spreadsheet,0,,,"A chatbot is a program you talk to by typing or speaking, and it replies in conversation."
+21,2,true_false,exercise,19,Next-word prediction means the AI checks each fact first.,,false,,,"False. It guesses likely words, so it can sound fluent without checking whether facts are true."
+22,2,select_blank,exercise,19,A chatbot guesses the next ___ again and again.,file|word|page,1,,,Next-word prediction builds a reply one likely word at a time.
+23,2,multiple_choice,exercise,19,Which is a chatbot?,Spreadsheet editor|Paper map|Support assistant,2,,,A support assistant that replies to typed questions in conversation is a chatbot.
+24,3,true_false,preview,25,AI is good at drafting text quickly.,,true,,,True. AI can produce a fast first version of text for you to improve.
+25,3,multiple_choice,main,,What is AI especially good at?,First drafts|Final approval|Reading minds,0,,,"AI is fast at drafting text, summarizing, and pattern spotting in large amounts of information, giving you a quick first version."
+26,3,true_false,exercise,25,AI can spot patterns in large amounts of data.,,true,,,"True. Pattern spotting is a core strength, such as finding trends across many rows of data."
+27,3,select_blank,exercise,25,AI gives you a fast first ___.,signature|draft|passport,1,,,Drafting is a strength: AI quickly produces a first version that you then review and improve.
+28,3,multiple_choice,exercise,25,Which task is AI fast at?,Reading minds|Winning lotteries|Drafting letters,2,,,Drafting text is a strength. AI cannot read minds or predict lotteries.
+29,3,match_pairs,exercise,25,Match each task to AI's strength.,Drafting↔Fast first version|Pattern spotting↔Finds trends|Summarizing↔Shortens text,,,,"AI drafts quickly, spots patterns in data, and shortens long text into a summary."
+30,3,true_false,preview,31,AI can get recent facts and exact maths wrong.,,true,,,True. Recent events and precise calculations are two known weak spots.
+31,3,multiple_choice,main,,Which is a known weakness of AI?,Out-of-date facts|Fast drafting|Pattern recognition,0,,,"The knowledge cutoff leaves out-of-date facts, and exact maths can be wrong too, so check recent facts and use a calculator."
+32,3,multiple_choice,exercise,31,What does knowledge cutoff mean?,Daily limit|Training date|Login timeout,1,,,It is the date where a model's training data ends; later events are unknown unless it can search.
+33,3,true_false,exercise,31,A calculator is safer than AI for exact maths.,,true,,,"True. AI can slip on precise calculations, so use a calculator for exact maths."
+34,3,select_blank,exercise,31,AI may give out-of-date ___ about recent events.,colours|songs|facts,2,,,"Because of its knowledge cutoff, AI may give out-of-date facts about the newest events."
+35,3,true_false,exercise,31,AI never gives out-of-date facts.,,false,,,"False. Its training data stops at its knowledge cutoff, so recent facts may be out of date."
+36,4,true_false,preview,37,AI reads text in small chunks called tokens.,,true,,,"True. A token is a small piece of text, often a short word or part of a word."
+37,4,multiple_choice,main,,What is a token?,Text chunk|Login code|Game coin,0,,,"A token is a small chunk of text an AI reads, often a short word or part of one; 'unhappy' may be two tokens."
+38,4,true_false,exercise,37,A token is always one whole sentence.,,false,,,"False. A token is much smaller, often a short word or part of a word."
+39,4,select_blank,exercise,37,AI reads text one ___ at a time.,novel|token|chapter,1,,,"Text is split into tokens, and the AI processes them piece by piece."
+40,4,multiple_choice,exercise,37,A long word may be split into several ___.,chats|windows|tokens,2,,,Long or rare words are often broken into several tokens.
+41,4,true_false,preview,42,A context window limits how much text AI can see.,,true,,,True. The AI can only keep a limited amount of text in view at once.
+42,4,multiple_choice,main,,What does a context window limit?,Visible text|Battery life|Screen size,0,,,"The context window is how much text an AI keeps in view at once; in very long chats, early messages can drop out."
+43,4,true_false,exercise,42,Very long chats can push early messages out of view.,,true,,,"True. Once the context window is full, the earliest text may no longer be seen."
+44,4,select_blank,exercise,42,A bigger context window keeps ___ text in view.,less|more|no,1,,,A larger window means the AI can see more of the conversation or document at once.
+45,4,multiple_choice,exercise,42,What does the context window cover?,Your name|Your photos|Chat text,2,,,It covers your messages and the AI's own replies in the current chat.
+46,4,true_false,preview,47,A new chat usually starts without remembering you.,,true,,,"True. Unless a memory feature is on, each new chat starts fresh."
+47,4,multiple_choice,main,,What does a memory feature do?,Saves facts|Speeds typing|Deletes chats,0,,,"Memory is a feature that saves facts about you between chats. Without it, a new chat starts fresh."
+48,4,true_false,exercise,47,"With memory off, a new chat knows your name.",,false,,,"False. Without a memory feature, each new chat starts fresh and knows nothing about you."
+49,4,select_blank,exercise,47,A memory feature saves ___ between chats.,viruses|details|prices,1,,,Memory keeps useful details about you so you need not repeat them each time.
+50,4,multiple_choice,exercise,47,A new chat does not recall last week. Why?,Broken app|Small screen|No memory,2,,,"Without a memory feature, a new chat starts fresh."
+51,5,true_false,preview,52,A prompt is the instruction you type to an AI.,,true,,,True. A prompt is what you ask or tell the AI to do.
+52,5,multiple_choice,main,,What is a prompt?,Your instruction|Assistant's answer|A password,0,,,A prompt is the question or instruction you give an AI. Clearer prompts usually get better answers.
+53,5,true_false,exercise,52,The AI's reply is called the prompt.,,false,,,False. The prompt is your instruction; the AI's reply is the answer.
+54,5,select_blank,exercise,52,A clearer ___ usually gets a better answer.,screen|prompt|password,1,,,"The more clearly you describe what you want, the better the result tends to be."
+55,5,multiple_choice,exercise,52,Which is a prompt?,Summary headline|Error message|Summarize memo,2,,,A prompt is an instruction you give. The other options are replies or errors.
+56,5,true_false,preview,57,"A good prompt names a role, task, context and format.",,true,,,"True. These four parts tell the AI who to be, what to do, what it needs, and how to answer."
+57,5,multi_select,main,,Pick the four parts of a good prompt.,Role|Task|Context|Format|Password|Emoji,0|1|2|3,,,"Role says who the AI acts as (a persona), task says what to do, context gives background, format sets the shape."
+58,5,select_blank,exercise,57,The ___ tells the AI who to act as.,role|format|context,0,,,"A role, or persona, such as a patient teacher, shapes how the AI answers."
+59,5,multiple_choice,exercise,57,Which part says what to do?,Role|Task|Format,1,,,"The task is the job itself, like 'write a short email'."
+60,5,select_blank,exercise,57,The ___ gives background the AI needs.,instruction|formatting|context,2,,,"Context is background, such as who the email is for or what happened."
+61,5,multiple_choice,exercise,57,Which part sets a table or list?,Format|Context|Task,0,,,"Format is the shape of the answer, such as a table, list or short paragraph."
+62,5,match_pairs,exercise,57,Match each prompt part to its job.,Role↔Who AI acts as|Task↔What to do|Context↔Background|Format↔Shape of answer,,,,"Role, task, context and format each do a different job in a good prompt."
+63,5,true_false,exercise,57,A persona is a role you give the AI.,,true,,,True. A persona such as 'friendly tutor' is a role that shapes how the AI answers.
+64,5,select_blank,exercise,57,'Act as a travel agent' is the ___.,task|role|format,1,,,"It tells the AI who to be, which is the role."
+65,5,select_blank,exercise,57,'Give me a table' is the ___ part.,role|context|format,2,,,"A table is a shape for the answer, so it belongs to the format."
+66,5,true_false,preview,67,A prompt is read as tokens inside the context window.,,true,,,True. Your instruction is split into tokens and must fit within the window.
+67,5,multiple_choice,main,,What holds your prompt and the reply?,Context window|Training material|Saved memory,0,,,"The context window holds your prompt and the AI's reply, measured in tokens."
+68,5,multiple_choice,exercise,67,What do you type to an AI?,A token|A prompt|A cutoff,1,,,You type a prompt: the instruction or question for the AI.
+69,5,match_pairs,exercise,67,Match each term to its meaning.,Token↔Chunk of text|Context window↔Text in view|Memory↔Saved details|Prompt↔Your instruction,,,,"A token is a text chunk, the window is what the AI sees, memory saves details, and the prompt is your instruction."
+70,5,true_false,exercise,67,A role tells the AI what to do.,,false,,,False. The role says who the AI acts as; the task says what to do.
+71,5,select_blank,exercise,67,A model's training end date is its knowledge ___.,window|token|cutoff,2,,,A knowledge cutoff is the date where the model's training data ends.
+72,5,multiple_choice,exercise,67,Which prompt part gives background?,Context|Formatting|Role,0,,,Context supplies the background the AI needs to answer well.
+73,5,true_false,exercise,67,A new chat always remembers your name.,,false,,,"False. Without a memory feature, a new chat starts fresh."
+74,5,match_pairs,exercise,67,Match each AI term to its meaning.,Artificial intelligence↔Human-like tasks|Machine learning↔Learns from examples|Generative AI↔Creates content|Large language model↔Text-trained AI,,,,Each term names a different layer of how AI works.
+75,5,true_false,exercise,67,An LLM is trained on training data.,,true,,,True. A large language model learns language from huge amounts of training data.
+76,5,true_false,exercise,67,Next-word prediction guesses the likely next word.,,true,,,True. That is how a chatbot builds each reply.
+77,6,true_false,preview,78,Name the audience and tone you want.,,true,,,True. Saying who the answer is for and how it should sound makes it fit.
+78,6,multiple_choice,main,,Why name the audience and tone?,Faster typing|Fitting answers|Cheaper subscriptions,1,,,"Naming the audience and a tone, like formal or friendly, makes the answer fit the reader."
+79,6,select_blank,exercise,78,A formal or friendly style is the ___.,token|task|tone,2,,,"Tone is the attitude of the writing, such as formal, friendly or firm."
+80,6,multiple_choice,exercise,78,Which names an audience?,For managers|Bullet points|Be formal,0,,,'For managers' says who will read the answer; the others set format or tone.
+81,6,true_false,exercise,78,Child and expert prompts should read identically.,,false,,,"False. Different audiences need different wording, so name the audience."
+82,6,multiple_choice,exercise,78,Which sets the tone?,For managers|Be polite|Use table,1,,,"'Be polite' describes the attitude of the writing, which is tone."
+83,6,true_false,preview,84,Share your goal and background with the AI.,,true,,,True. Telling the AI what you need and what you know helps it answer.
+84,6,multiple_choice,main,,Why share your goal with an AI?,Free credits|Louder replies|Sharper answers,2,,,"Background and your goal tell the AI what you need and what you already tried, so it does not guess."
+85,6,select_blank,exercise,84,Your ___ says what you want to achieve.,goal|token|tone,0,,,"The goal is the outcome you are aiming for, such as winning a client."
+86,6,multiple_choice,exercise,84,Which is useful background?,Your password|Past attempts|A joke,1,,,Telling the AI what you already tried helps it avoid repeating that advice.
+87,6,true_false,exercise,84,The AI can guess your goal without being told.,,false,,,"False. Without your goal and background, the AI has to guess what you need."
+88,6,multiple_choice,exercise,84,'Prepare for a job interview' is a ___.,Format|Role|Goal,2,,,"It states the outcome you want, which is your goal."
+89,7,true_false,preview,90,A few-shot prompt shows the AI examples.,,true,,,True. A few-shot prompt includes some examples so the AI copies the pattern.
+90,7,multiple_choice,main,,What makes a prompt few-shot?,Includes examples|Intentionally vague|Extremely long,0,,,"Zero-shot prompting gives instructions only; few-shot prompting adds a few examples, so the AI copies the pattern."
+91,7,multiple_choice,exercise,90,What is zero-shot prompting?,Numerous examples|Instructions only|Examples only,1,,,Zero-shot prompting gives instructions with no example answers.
+92,7,select_blank,exercise,90,A few-shot prompt includes some ___.,passwords|tokens|examples,2,,,The examples show the AI the pattern you want it to copy.
+93,7,true_false,exercise,90,Zero-shot prompts include sample answers.,,false,,,"False. Zero-shot prompts have instructions only, with no sample answers."
+94,7,multiple_choice,exercise,90,Which prompt is few-shot?,Includes samples|Instructions only|Role only,0,,,"A few-shot prompt contains sample inputs and answers, not just an instruction."
+95,8,true_false,preview,96,"You can ask for a table, bullets or steps.",,true,,,True. Asking for a format controls the shape of the answer.
+96,8,multiple_choice,main,,What does an output format control?,Answer's truth|Answer's shape|AI's speed,1,,,"An output format is the shape you want, such as a table, bullet list, email or numbered steps."
+97,8,multiple_choice,exercise,96,Which is an output format?,Audience|Goal|Table,2,,,A table is a shape for the answer. Audience and goal are other prompt ideas.
+98,8,true_false,exercise,96,Asking for numbered steps changes the answer's shape.,,true,,,True. Numbered steps are an output format that structures the answer.
+99,8,select_blank,exercise,96,Ask for ___ to get a short list.,bullets|windows|cutoffs,0,,,"Bullets are an output format for a short, scannable list."
+100,8,true_false,preview,101,A word limit is a constraint on the answer.,,true,,,True. A constraint is a rule that limits what the AI produces.
+101,8,multiple_choice,main,,What is a constraint in a prompt?,A reply|A rule|A name,1,,,"A constraint is a rule that limits what the AI produces, like a word limit or a do-not list of things to avoid."
+102,8,multiple_choice,exercise,101,Which is a constraint?,Friendly style|Include table|100-word limit,2,,,A word limit restricts the answer. Friendly is tone and a table is format.
+103,8,true_false,exercise,101,Telling the AI what to avoid is a constraint.,,true,,,True. A do-not list limits what the answer may include.
+104,8,select_blank,exercise,101,A word ___ is a constraint.,limit|token|window,0,,,"A word limit caps the answer's length, which makes it a constraint."
+105,9,true_false,preview,106,You can improve answers with follow-up requests.,,true,,,True. Follow-ups let you refine a first answer in rounds.
+106,9,multiple_choice,main,,What is iteration?,Starting over|Refining answers|Deleting messages,1,,,Iteration means improving an answer over several rounds of follow-up requests instead of expecting perfection from one prompt.
+107,9,true_false,exercise,106,Follow-ups can fix a weak first answer.,,true,,,True. Each follow-up lets you steer the answer closer to what you need.
+108,9,select_blank,exercise,106,Improving through follow-ups is called ___.,personality|memorization|iteration,2,,,Iteration is refining over several rounds.
+109,9,multiple_choice,exercise,106,The first answer is too long. Best step?,Follow up|Give up|Delete it,0,,,A follow-up such as 'shorten this' refines the answer.
+110,9,true_false,preview,111,Asking AI to think step by step can help.,,true,,,True. Working through steps often improves accuracy on multi-part problems.
+111,9,multiple_choice,main,,What does chain-of-thought prompting ask for?,Shorter paragraphs|Step-by-step reasoning|Fancier vocabulary,1,,,Asking an AI to think step by step can help: chain-of-thought prompting often improves accuracy on multi-part problems.
+112,9,true_false,exercise,111,Think step by step suits multi-part problems.,,true,,,True. Step-by-step reasoning helps the AI handle problems with several parts.
+113,9,multiple_choice,exercise,111,Which request asks for reasoning steps?,Be brief|Use bullets|Show steps,2,,,'Think step by step' asks the AI to show its reasoning in stages.
+114,9,select_blank,exercise,111,Chain-of-thought prompting asks for ___ reasoning.,step-by-step|confidential|randomised,0,,,It encourages the AI to work through the problem in stages.
+115,10,true_false,preview,116,Vague prompts get vague answers.,,true,,,"True. Without detail, the AI has to guess what you want."
+116,10,multiple_choice,main,,What improves a vague prompt?,Added emojis|Specific details|Politer greetings,1,,,"Vague prompts get vague answers because the AI must guess. Add details, and ask for one task at a time."
+117,10,true_false,exercise,116,'Help me' is a clear prompt.,,false,,,"False. 'Help me' gives no detail, so the AI cannot tell what you need."
+118,10,select_blank,exercise,116,Ask for one ___ at a time.,token|tone|task,2,,,One job per prompt keeps answers focused.
+119,10,true_false,exercise,116,Putting ten jobs in one prompt works best.,,false,,,False. Many jobs in one prompt get muddled results; ask for one task at a time.
+120,10,select_blank,exercise,116,Vague prompts usually get ___ answers.,vague|precise|secret,0,,,"With little detail to go on, the AI gives a general answer."
+121,10,true_false,preview,122,AI may agree with you just to please you.,,true,,,True. This tendency is called sycophancy.
+122,10,multiple_choice,main,,What is sycophancy in AI?,Fast typing|Flattering agreement|Exhaustive research,1,,,"Sycophancy: an AI agrees with you just to please you, often after a leading question like 'Isn't my plan great?'"
+123,10,true_false,exercise,122,Leading questions can make an AI agree with you.,,true,,,True. A question that hints at your preferred answer can push the AI to agree.
+124,10,multiple_choice,exercise,122,Which question is less leading?,"Great, right?|Agree, yes?|Any risks?",2,,,"'Any risks?' does not hint at an answer, so it invites an honest reply."
+125,10,select_blank,exercise,122,Flattery instead of truth is called ___.,sycophancy|punctuation|iteration,0,,,Sycophancy means pleasing you rather than being accurate.
+126,10,true_false,preview,127,Specific prompts with examples and formats work better.,,true,,,"True. Clear detail, examples and a requested format all improve results."
+127,10,multiple_choice,main,,What improves a weak first answer?,Silence|Follow-ups|Capital letters,1,,,"Iteration, meaning follow-up requests, refines a weak first answer."
+128,10,match_pairs,exercise,127,Match each term to its meaning.,Few-shot↔Includes examples|Iteration↔Refining by follow-up|Sycophancy↔Flattering agreement|Constraint↔Rule limiting answer,,,,Each term names a different prompting idea.
+129,10,multiple_choice,exercise,127,Which asks who the answer is for?,Format|Token|Audience,2,,,Audience says who will read the answer.
+130,10,true_false,exercise,127,One task at a time gives muddled answers.,,false,,,False. Many tasks at once give muddled answers; one task at a time stays focused.
+131,10,select_blank,exercise,127,A table is an output ___.,format|persona|tokens,0,,,"A table is a shape for the answer, so it is an output format."
+132,10,multiple_choice,exercise,127,Which prompt includes examples?,Zero-shot prompting|Few-shot prompting|Constraint,1,,,Few-shot prompting includes example answers; zero-shot prompting gives instructions only.
+133,10,true_false,exercise,127,Chain-of-thought asks for step-by-step reasoning.,,true,,,True. It asks the AI to work through a problem in stages.
+134,11,true_false,preview,135,AI can state false things in a believable way.,,true,,,True. This is called a hallucination.
+135,11,multiple_choice,main,,What is a hallucination in AI?,Slow connection|Unresponsive server|Confident falsehood,2,,,"A hallucination is when an AI states something false, like a made-up fact or source, in a believable way."
+136,11,true_false,exercise,135,A hallucination only happens when AI is slow.,,false,,,"False. A hallucination is a false statement made believably, whatever the speed."
+137,11,select_blank,exercise,135,A made-up fact stated confidently is a ___.,hallucination|characteristic|constraint,0,,,A hallucination is false content presented as if it were true.
+138,11,multiple_choice,exercise,135,Which could be a hallucination?,Verified statistic|Invented statistic|Concise summary,1,,,An invented statistic is a made-up fact stated believably.
+139,11,true_false,preview,140,A confident tone does not prove an answer is true.,,true,,,True. Confident wording says nothing about whether facts were checked.
+140,11,multiple_choice,main,,Does fluent writing prove AI is right?,Yes|Long ones|No,2,,,"Fluent text and a confident tone show only that the AI predicts words well, not that its facts are checked."
+141,11,true_false,exercise,140,Smooth wording means the facts were checked.,,false,,,False. Smooth wording only shows the AI writes fluently.
+142,11,select_blank,exercise,140,Confident wording is not ___ of accuracy.,proof|a cause|a cure,0,,,An answer can sound sure and still be wrong.
+143,11,multiple_choice,exercise,140,Which signals accuracy?,Smooth wording|Checked source|Long answer,1,,,A source you have checked shows accuracy. Smooth wording and length do not.
+144,11,true_false,preview,145,AI can invent sources and numbers.,,true,,,"True. Made-up sources, quotes and figures are typical examples of a hallucination."
+145,11,multiple_choice,main,,Which is a hallucination red flag?,Short response|Polite phrasing|Unknown source,2,,,"AI can invent sources and numbers. Red flags: fake sources you cannot find, invented quotes, and wrong numbers or dates."
+146,11,true_false,exercise,145,A source that cannot be found may be fake.,,true,,,"True. If you cannot find the source anywhere, it may have been invented."
+147,11,multiple_choice,exercise,145,Which is a red flag?,Invented quote|Clear heading|Friendly wording,0,,,A quote nobody can trace to a real person is a red flag.
+148,11,select_blank,exercise,145,Check numbers and ___ before trusting them.,colors|dates|fonts,1,,,Wrong numbers and dates are a common kind of hallucination.
+149,11,true_false,exercise,145,Wrong numbers never appear in AI answers.,,false,,,"False. Precise-looking figures can be wrong numbers or invented, so verify them."
+150,12,true_false,preview,151,A primary source is the original document.,,true,,,"True. It is the original behind a claim, not a summary."
+151,12,multiple_choice,main,,What is a primary source?,Someone's summary|AI's guess|Original document,2,,,"A primary source is the original document or data behind a claim, like a law or a study, not a summary of it."
+152,12,multiple_choice,exercise,151,Which is a primary source?,Original law|Blog summary|Forum post,0,,,The law itself is the original document; the others describe it second-hand.
+153,12,true_false,exercise,151,The original document beats AI's summary for checking facts.,,true,,,True. Checking the primary source avoids errors from summaries.
+154,12,select_blank,exercise,151,Verify AI claims in a ___ source.,random|primary|secondary,1,,,"A primary source is the original, most reliable place to check."
+155,12,true_false,preview,156,AI-written citations may point to pages that do not exist.,,true,,,"True. AI can invent citations, so every one needs checking."
+156,12,multiple_choice,main,,What should you do with an AI citation?,Trust it|Ignore it|Check it,2,,,"A citation says where a fact came from. AI-written citations may point to pages that do not exist, so open each one."
+157,12,true_false,exercise,156,Every citation an AI writes is real.,,false,,,"False. AI can invent citations that look real, so open each one."
+158,12,select_blank,exercise,156,Open each citation to ___ it.,check|hide|delete,0,,,Opening the link shows whether the source exists and supports the claim.
+159,12,multiple_choice,exercise,156,What is a citation?,Typing mistake|Source reference|Chat preferences,1,,,"A citation points to where a fact came from, such as a book or web link."
+160,12,true_false,preview,161,Pasting your own text can ground an AI's answer.,,true,,,True. Giving the AI real material to rely on reduces made-up content.
+161,12,multiple_choice,main,,What does grounding give an AI?,Random guesses|Short replies|Real material,2,,,"Grounding gives an AI real material to base its answer on, like pasted text or search mode, so it invents less."
+162,12,true_false,exercise,161,Pasting a document grounds the AI's answer.,,true,,,True. The AI can then base its answer on the text you supplied.
+163,12,multiple_choice,exercise,161,Which is grounding?,Paste report|Ask repeatedly|Add emojis,0,,,Pasting your report gives the AI real material to work from.
+164,12,select_blank,exercise,161,Search mode can ___ an answer in live sources.,hide|ground|shorten,1,,,"Search mode lets the AI base its answer on real, current pages."
+165,13,true_false,preview,166,AI can treat some groups unfairly.,,true,,,True. This unfairness is called algorithmic bias.
+166,13,multiple_choice,main,,Why can AI show bias?,Slow servers|Short prompts|Skewed data,2,,,"Algorithmic bias is unfair results for some groups, like a hiring tool favoring one group, often repeating stereotypes in its data."
+167,13,true_false,exercise,166,AI can repeat stereotypes found in its data.,,true,,,"True. If the training data is skewed, the AI can repeat those patterns."
+168,13,select_blank,exercise,166,"Unfair, skewed results show algorithmic ___.",bias|memory|grounding,0,,,Algorithmic bias means results that unfairly favor or disadvantage some groups.
+169,13,multiple_choice,exercise,166,How can you reduce bias in a prompt?,Omit identities|Request balance|Use slang,1,,,"Asking for balanced, fair treatment of different groups helps counter skewed patterns."
+170,14,true_false,preview,171,A person should review high-stakes AI output.,,true,,,True. A human check matters most when the decision is high-stakes.
+171,14,multiple_choice,main,,What does human in the loop mean?,Automatic approval|No review|Person reviews,2,,,"Human in the loop means a person approves AI output before use, especially high-stakes decisions, because your name is on it."
+172,14,true_false,exercise,171,Medical or legal decisions should skip human review.,,false,,,False. High-stakes decisions need a person to review the AI's output.
+173,14,multiple_choice,exercise,171,Who approves output with a human in the loop?,A person|The AI|Nobody,0,,,"A person approves it, because your name is on the work."
+174,14,select_blank,exercise,171,A person reviews AI output: human in the ___.,window|loop|cutoff,1,,,Human in the loop means a person stays involved in checking.
+175,14,true_false,preview,176,Checking AI claims against a primary source is wise.,,true,,,True. The original document is the best place to verify a claim.
+176,14,multiple_choice,main,,What lowers the risk of invented facts?,Flattery|Longer chats|Grounding,2,,,"Grounding gives the AI real material to rely on, so it invents less."
+177,14,multiple_choice,exercise,176,Which is a hallucination?,Invented citation|Accurate quotation|Short summary,0,,,A citation that does not exist is a made-up source stated as true.
+178,14,match_pairs,exercise,176,Match each term to its meaning.,Hallucination↔Confident falsehood|Primary source↔Original document|Grounding↔Real material|Algorithmic bias↔Skewed results,,,,Each term helps you judge how far to trust an AI answer.
+179,14,true_false,exercise,176,AI-written citations need checking.,,true,,,True. They can point to pages that do not exist.
+180,14,select_blank,exercise,176,Sensitive decisions need a human in the ___.,cutoff|loop|token,1,,,A person should review high-stakes AI output.
+181,14,multiple_choice,exercise,176,Which reduces made-up facts?,Using emojis|Typing faster|Pasting text,2,,,Pasting source text grounds the answer in real material.
+182,14,true_false,exercise,176,Confident wording proves an answer is true.,,false,,,False. Confident wording shows only that the text is fluent.
+183,14,true_false,exercise,176,Sycophancy means flattering agreement instead of truth.,,true,,,True. A sycophantic AI pleases you rather than checking accuracy.
+184,14,true_false,exercise,176,Chain-of-thought prompting asks for step-by-step reasoning.,,true,,,True. Working through steps often improves accuracy on multi-part problems.
+185,15,true_false,preview,186,Names and ID numbers are personal information.,,true,,,True. Any detail that points to a specific person counts.
+186,15,multiple_choice,main,,Which is personal information?,ID number|Weather forecast|Recipe,0,,,"Personally identifiable information is any detail that points to a specific person, like a name, address, phone or ID number."
+187,15,true_false,exercise,186,A home address is personal information.,,true,,,"True. An address points to a specific person, so keep it out of public chats."
+188,15,multiple_choice,exercise,186,Which personal information should stay private?,Holiday recipes|Health details|Maths tips,1,,,"Health details point to a specific person, so they are personal information."
+189,15,select_blank,exercise,186,A phone number is ___ information.,published|generic|personal,2,,,A phone number can identify a specific person.
+190,15,true_false,preview,191,Customer data and passwords stay out of AI chats.,,true,,,True. Confidential details should not be pasted into public AI tools.
+191,15,multiple_choice,main,,Which is confidential information?,Customer records|Public headlines|Weather report,0,,,"Confidential information is what your employer expects you to keep secret, like customer data or passwords, so keep it out of AI chats."
+192,15,true_false,exercise,191,"Pasting confidential information, like a client's contract, is safe.",,false,,,"False. A client's contract is confidential, so it should not go into a public AI tool."
+193,15,multiple_choice,exercise,191,Which confidential information stays out?,Public facts|Passwords|Greetings,1,,,"Passwords are secret, so never paste them into an AI chat."
+194,15,select_blank,exercise,191,Unreleased plans are ___ information.,unrestricted|optional|confidential,2,,,Plans your employer has not released are expected to stay secret.
+195,15,true_false,preview,196,Companies may keep your chats for a while.,,true,,,True. How long a company keeps your data is called data retention.
+196,15,multiple_choice,main,,What is data retention?,Keeping data|Deleting chats|Faster typing,0,,,Companies may keep your chats for a while: that is data retention. An opt-out setting lets you refuse uses such as training.
+197,15,multiple_choice,exercise,196,What does an opt-out do?,Deletes app|Refuses use|Speeds replies,1,,,An opt-out is a setting that lets you say no to a use of your data.
+198,15,true_false,exercise,196,Chats may be kept after you close them.,,true,,,True. Data retention means the company can keep chats for a period.
+199,15,select_blank,exercise,196,How long data is kept is data ___.,memory|punctuation|retention,2,,,Data retention describes how long a company holds on to your information.
+200,15,select_blank,exercise,196,An ___ setting lets you refuse a use.,opt-out|log-in|time-out,0,,,"An opt-out lets you refuse uses of your chats, such as training."
+201,16,true_false,preview,202,Your employer may have rules for AI use.,,true,,,True. Such rules are set out in an acceptable use policy.
+202,16,multiple_choice,main,,What does an acceptable use policy set?,Your salary|Allowed uses|Prompt length,1,,,Your employer may have rules for AI use: an acceptable use policy sets what you may do with tools. Follow it.
+203,16,true_false,exercise,202,You can ignore your workplace's AI rules.,,false,,,"False. Your acceptable use policy applies, and breaking it can cause real problems."
+204,16,select_blank,exercise,202,Check the ___ use policy before using AI.,incidental|unlimited|acceptable,2,,,The acceptable use policy tells you what AI use is allowed at work or school.
+205,16,multiple_choice,exercise,202,Where are workplace AI rules written?,Use policy|Your prompt|Chat memory,0,,,They are in the acceptable use policy.
+206,16,true_false,preview,207,Some workplaces require you to say AI helped.,,true,,,True. Telling people AI helped is called disclosure.
+207,16,multiple_choice,main,,What is disclosure?,Hiding AI|Crediting AI|Deleting work,1,,,"Copyright, a creator's legal control over their work, affects reusing AI output. Some workplaces require disclosure: saying AI helped."
+208,16,select_blank,exercise,207,Telling people AI helped is ___.,copyright|hallucination|disclosure,2,,,Disclosure means openly saying when AI helped.
+209,16,multiple_choice,exercise,207,What does copyright protect?,Creators' work|Browser history|Passwords,0,,,Copyright gives creators legal control over how their work is copied and shared.
+210,16,true_false,exercise,207,AI output is always free to reuse any way.,,false,,,"False. Copyright can still apply, which affects how you may reuse AI output."
+211,16,true_false,exercise,207,Some schools require disclosure of AI help.,,true,,,True. Many schools and publishers expect you to say when AI helped.
+212,17,true_false,preview,213,A deepfake is a fake video made with AI.,,true,,,True. It convincingly shows something that never happened.
+213,17,multiple_choice,main,,What is a deepfake?,Real recording|AI-made fake|Photo filter,1,,,"A deepfake is a fake video, image or audio clip made with AI that convincingly shows someone doing or saying something they never did."
+214,17,true_false,exercise,213,A deepfake can show someone saying words they never said.,,true,,,True. Deepfakes make people appear to say or do things that never happened.
+215,17,select_blank,exercise,213,An AI-made fake video of someone is a ___.,token|personality|deepfake,2,,,A deepfake is AI-made fake media that looks real.
+216,17,multiple_choice,exercise,213,Which is a deepfake?,Fake video|Real speech|Typed memo,0,,,A fake video made with AI is a deepfake. Real speech and a typed memo are not.
+217,17,true_false,preview,218,Scammers can copy a voice from a short clip.,,true,,,True. This is called voice cloning.
+218,17,multiple_choice,main,,What does voice cloning do?,Removes noise|Copies voices|Translates text,1,,,"Voice cloning uses AI to copy a real person's voice from a short recording, which scammers use to fake urgent calls from family."
+219,17,true_false,exercise,218,A caller can sound like your cousin yet be fake.,,true,,,"True. Voice cloning can copy a relative's voice, so a familiar voice is not proof."
+220,17,select_blank,exercise,218,A fake relative's voice may be voice ___.,memory|synthesis|cloning,2,,,Voice cloning copies a real person's voice with AI.
+221,17,true_false,exercise,218,Voice cloning needs hours of recorded audio.,,false,,,False. A short recording can be enough to copy a voice.
+222,17,true_false,preview,223,Phishing messages pretend to come from someone you trust.,,true,,,True. AI can make them look more polished.
+223,17,multiple_choice,main,,How can you check an urgent request?,Call back|Reply fast|Click link,0,,,"Phishing messages pretend to come from someone you trust. AI makes them polished, so call back on a known number or use a code word."
+224,17,true_false,exercise,223,AI can make phishing messages look more polished.,,true,,,True. Good grammar and style no longer prove a message is genuine.
+225,17,select_blank,exercise,223,Verify by calling a ___ number.,new|known|random,1,,,"Call back on a number you already know is real, not one in the message."
+226,17,multiple_choice,exercise,223,What is phishing?,Weather alert|Backup file|Fake message,2,,,Phishing is a scam message that pretends to be from someone you trust.
+227,17,true_false,preview,228,Never paste confidential information into a public chatbot.,,true,,,True. Public tools may keep what you paste.
+228,17,multiple_choice,main,,Which should stay out of a chat?,Customer data|Public facts|General greetings,0,,,"Customer data is confidential information, so it should stay out of public AI tools."
+229,17,match_pairs,exercise,228,Match each term to its meaning.,Deepfake↔AI-made fake media|Voice cloning↔Copied voice|Phishing↔Fake trusted message|Disclosure↔Saying AI helped,,,,Each term names a different risk or duty when using AI.
+230,17,true_false,exercise,228,Data retention is how long data is kept.,,true,,,True. It describes how long a company keeps what you give it.
+231,17,multiple_choice,exercise,228,What do workplace AI rules set?,Memory settings|Use policy|Writing tone,1,,,The acceptable use policy sets what AI use is allowed.
+232,17,select_blank,exercise,228,Copying someone's voice with AI is voice ___.,tone|synthesis|cloning,2,,,Voice cloning copies a real person's voice from a short recording.
+233,17,true_false,exercise,228,Personal information is safe to paste anywhere.,,false,,,"False. Personal information points to a specific person, so keep it out of public chats."
+234,17,multiple_choice,exercise,228,Which verifies an urgent call?,Call back|Reply immediately|Forward it,0,,,Calling back on a known number checks whether the request is real.
+235,17,match_pairs,exercise,228,Match each safeguard to its meaning.,Algorithmic bias↔Skewed results|Human in the loop↔Person reviews|Personally identifiable information↔Details naming you|Opt-out↔Refusing a use,,,,Each term is a safeguard or risk to watch for.
+236,17,true_false,exercise,228,Copyright can affect how you reuse AI output.,,true,,,"True. Creators keep legal control of their work, even when AI helped."
+237,18,true_false,preview,238,AI can draft and proofread your emails.,,true,,,True. Give it your points and it writes a first version.
+238,18,multiple_choice,main,,How can AI help with an email?,"Send itself|Draft, polish|Replace humans",1,,,"AI can draft an email from your points, then rewrite, shorten or proofread it. You still read it before sending."
+239,18,multiple_choice,exercise,238,Which is proofreading?,Writing drafts|Sending it|Fixing typos,2,,,Proofreading checks for errors such as typos and grammar.
+240,18,true_false,exercise,238,You can ask AI to shorten a long email.,,true,,,True. Shortening and rewriting are common requests for an existing draft.
+241,18,select_blank,exercise,238,Give AI points and it will ___ an email.,draft|delete|send,0,,,Drafting turns your rough points into a first version.
+242,18,select_blank,exercise,238,"Before sending an AI draft, you should ___.",skip it|read it|post it,1,,,"You are responsible for the email, so read the draft first."
+243,18,true_false,preview,244,Paste your own writing so AI copies your style.,,true,,,True. A sample shows the AI how you write.
+244,18,multiple_choice,main,,What is a style sample?,Some fonts|Email templates|Your writing,2,,,A style sample is a piece of your own writing that you paste in so the AI copies your voice and word choices.
+245,18,true_false,exercise,244,A style sample helps AI match your voice.,,true,,,True. The AI copies the voice and word choices it sees in your sample.
+246,18,select_blank,exercise,244,Paste a ___ sample to keep your own voice.,style|token|safe,0,,,A style sample shows the AI how you normally write.
+247,18,multiple_choice,exercise,244,Which is a good style sample?,Legal code|Your email|Random text,1,,,Your own past writing shows your natural voice.
+248,19,true_false,preview,249,AI can turn a long document into a short summary.,,true,,,True. A summary shortens text to its key points.
+249,19,multiple_choice,main,,Why check an AI summary?,Always perfect|Always private|Misses points,2,,,"A summary shortens a document to its key points. AI can miss or twist details, such as dropping a deadline, so check the source."
+250,19,true_false,exercise,249,An AI summary may leave out key points.,,true,,,"True. Summaries can omit or distort details, so compare with the original."
+251,19,select_blank,exercise,249,Check a summary against the ___.,source|tone|cutoff,0,,,The source document shows whether the summary kept the key points.
+252,19,multiple_choice,exercise,249,What is a summary?,Longer copy|Short version|Translated text,1,,,A summary is a shortened version that keeps the key points.
+253,19,true_false,preview,254,AI can pull action items from a meeting transcript.,,true,,,True. It can list who needs to do what.
+254,19,multiple_choice,main,,What can AI make from a transcript?,Passwords|Slideshow decks|Action items,2,,,"A transcript is the written record of a meeting. AI can turn it into notes and action items, the tasks to do next."
+255,19,multiple_choice,exercise,254,What is a transcript?,Written record|Meeting invitation|Slide deck,0,,,A transcript is a word-for-word written record of a spoken meeting or call.
+256,19,true_false,exercise,254,Action items are the tasks to do next.,,true,,,True. AI can pull them out of meeting notes.
+257,19,select_blank,exercise,254,A written record of a call is a ___.,tokenization|transcript|cutoff,1,,,A transcript puts the spoken words into writing.
+258,19,multiple_choice,exercise,254,Which is an action item?,Nice meeting|Good lunch|Send report,2,,,Sending the report is a task someone must do next.
+259,20,true_false,preview,260,Ask AI to explain a topic with an analogy.,,true,,,True. An analogy compares something new to something familiar.
+260,20,multiple_choice,main,,What is an analogy?,A comparison|A summarisation|A citation,0,,,An analogy explains something new by comparing it to something you already know. Ask AI to explain a topic simply with one.
+261,20,true_false,exercise,260,An analogy compares a new idea to a familiar one.,,true,,,True. That is why analogies make new topics easier to grasp.
+262,20,select_blank,exercise,260,Ask AI to explain it ___ with an analogy.,secretly|simply|slowly,1,,,Asking for a simple explanation with an analogy helps you learn quickly.
+263,20,select_blank,exercise,260,'Memory is like a notepad' is an ___.,citation|token|analogy,2,,,It explains one thing by comparing it to something familiar.
+264,20,true_false,preview,265,"AI can list pros, cons and study plans.",,true,,,True. Both are quick ways to organize a decision or a topic.
+265,20,multiple_choice,main,,What helps you compare options?,"Pros, cons|Price quotes|Passwords",0,,,"Ask AI for pros and cons to compare options, like two laptops, or for a study plan that splits a topic into weekly steps."
+266,20,true_false,exercise,265,A study plan splits learning into steps.,,true,,,True. AI can break a topic into weekly steps.
+267,20,multiple_choice,exercise,265,Which helps you compare two options?,"Study plan|Pros, cons|Style sample",1,,,Pros and cons lay out the good and bad points of each option.
+268,20,select_blank,exercise,265,Ask for a study ___ to learn a topic.,token|cutoff|plan,2,,,A study plan turns a big topic into manageable steps.
+269,20,select_blank,exercise,265,List the ___ and cons of each option.,pros|tokens|roles,0,,,Pros and cons set out the good and bad points of each option.
+270,21,true_false,preview,271,AI can suggest spreadsheet formulas.,,true,,,True. Describe what you want and AI can propose a formula.
+271,21,multiple_choice,main,,What can AI do with a messy spreadsheet?,Hide rows|Clean data|Delete file,1,,,"AI can suggest spreadsheet formulas and help with data cleaning: fixing duplicates, typos and inconsistent formats. Check results before relying on them."
+272,21,select_blank,exercise,271,Fixing duplicates and typos is data ___.,grounding|iteration|cleaning,2,,,Data cleaning prepares messy data for analysis.
+273,21,true_false,exercise,271,AI can suggest a formula for adding a column.,,true,,,True. Describe the goal and AI can propose the formula.
+274,21,multiple_choice,exercise,271,Which is data cleaning?,Fix typos|Add charts|Change colors,0,,,Fixing typos and duplicates is data cleaning.
+275,21,true_false,exercise,271,Cleaned data never needs checking.,,false,,,False. Always check results before relying on them.
+276,21,true_false,preview,277,Spot-check a few of the AI's numbers yourself.,,true,,,True. Re-calculating a few results shows whether the rest is trustworthy.
+277,21,multiple_choice,main,,How should you verify AI's numbers?,Trust them|Spot-check|Round them,1,,,"Spot-check by re-calculating a few results yourself, such as one row or total, before trusting the rest."
+278,21,true_false,exercise,277,Re-calculating one total yourself is a spot-check.,,true,,,True. Checking a few results by hand reveals errors.
+279,21,select_blank,exercise,277,Re-calculate a few ___ yourself.,fonts|colours|results,2,,,Re-calculating a sample of results shows whether the AI's numbers hold up.
+280,21,multiple_choice,exercise,277,AI gives a total. Best check?,Re-calculate|Accept silently|Round figures,0,,,Re-calculating a total yourself confirms whether it is correct.
+281,22,true_false,preview,282,AI can brainstorm many ideas fast.,,true,,,True. Brainstorming means producing many ideas quickly.
+282,22,multiple_choice,main,,What is brainstorming?,One idea|Many ideas|Final choice,1,,,Brainstorming is producing many ideas quickly without judging them first. AI can give you a long list to pick from.
+283,22,true_false,exercise,282,Brainstorming means judging each idea immediately.,,false,,,False. Brainstorming first produces many ideas without judging; you choose afterwards.
+284,22,select_blank,exercise,282,Ask AI for ___ ideas to choose from.,one|none|many,2,,,Brainstorming works by generating lots of options first.
+285,22,multiple_choice,exercise,282,"When brainstorming, first aim for ___.",Quantity|Perfection|Silence,0,,,Brainstorming starts with many ideas; you pick the best afterwards.
+286,22,true_false,preview,287,AI can draft a project plan with risks.,,true,,,True. It can list steps and what could go wrong.
+287,22,multiple_choice,main,,What can AI help with in planning?,"Final approvals|Plans, risks|Budget sign-off",1,,,"Ask AI to draft a project plan, such as launching a website, with a timeline of steps by date and risks that could delay it."
+288,22,multiple_choice,exercise,287,Which is a project risk?,Team celebration|New logo|Supplier delay,2,,,"A supplier delay could hold up the project, so it is a risk."
+289,22,true_false,exercise,287,A timeline orders project steps by date.,,true,,,True. A timeline shows when each step happens.
+290,22,select_blank,exercise,287,A list of ___ shows what could delay plans.,risks|tokens|tones,0,,,Listing risks helps you prepare for what could go wrong.
+291,22,true_false,exercise,287,An AI project plan needs no review.,,false,,,False. Review and adjust any AI-drafted plan before using it.
+292,22,true_false,preview,293,AI can argue against your idea on purpose.,,true,,,True. That helps you find weak points.
+293,22,multiple_choice,main,,What does a devil's advocate do?,Agrees always|Argues against|Corrects spelling,1,,,"A devil's advocate argues against your idea on purpose to expose weak points, like a skeptical colleague. Ask AI to critique it."
+294,22,true_false,exercise,293,Asking AI to critique your plan can reveal weak points.,,true,,,True. A critique shows what to fix before you commit.
+295,22,select_blank,exercise,293,Ask AI to play devil's ___.,helper|assistant|advocate,2,,,A devil's advocate argues against an idea on purpose.
+296,22,multiple_choice,exercise,293,Why ask for a critique?,Find flaws|Get praise|Save tokens,0,,,A critique exposes problems that praise would hide.
+297,22,true_false,preview,298,"Drafting, summarizing and brainstorming are everyday AI jobs.",,true,,,True. They save time on common work.
+298,22,multiple_choice,main,,Which task makes a short version?,Brainstorm|Summary|Critique,1,,,A summary shortens text to its key points.
+299,22,match_pairs,exercise,298,Match each task to its result.,Draft↔First version|Summary↔Short version|Analogy↔Familiar comparison|Brainstorming↔Many ideas,,,,Each everyday task gives a different kind of result.
+300,22,true_false,exercise,298,Data cleaning fixes typos and duplicates.,,true,,,True. It prepares messy data for use.
+301,22,multiple_choice,exercise,298,Who argues against your idea?,Proofreader|Executive assistant|Devil's advocate,2,,,A devil's advocate argues against an idea on purpose.
+302,22,select_blank,exercise,298,Check AI numbers with a ___-check.,spot|token|fast,0,,,A spot-check re-calculates a few results yourself.
+303,22,multiple_choice,exercise,298,Which gives you a longer list?,Spot-checking|Brainstorming|Copy-editing,1,,,Brainstorming produces many ideas to pick from.
+304,22,true_false,exercise,298,A summary needs no checking.,,false,,,False. Check an AI summary against the source.
+305,23,true_false,preview,306,Reuse prompts as templates with blanks to fill.,,true,,,True. A template saves retyping the same instructions.
+306,23,multiple_choice,main,,What is a prompt template?,One-off chat|Auto-generated reply|Reusable prompt,2,,,"A prompt template is a reusable prompt with blanks you fill in each time, saving you from retyping instructions."
+307,23,select_blank,exercise,306,A template has ___ to fill in.,blanks|tokens|tones,0,,,The blanks are the details you change each time.
+308,23,true_false,exercise,306,A template saves you retyping the same instructions.,,true,,,True. You fill in the blanks and reuse the rest.
+309,23,multiple_choice,exercise,306,Which is a template blank?,Send immediately|[client name]|Kind regards,1,,,A bracketed placeholder like [client name] is a blank you fill in.
+310,23,true_false,preview,311,Some apps have an AI assistant built in.,,true,,,True. It helps inside the app you already use.
+311,23,multiple_choice,main,,What is an AI assistant in an app?,Separate website|Paper manual|Built-in helper,2,,,"Some apps have an AI assistant built in: an AI helper in an app you already use, like email, to draft or summarize."
+312,23,true_false,exercise,311,An AI assistant can live inside an email app.,,true,,,True. Many email and document apps now include one.
+313,23,select_blank,exercise,311,An AI ___ is built into apps you use.,assistant|tokenizer|cutoff,0,,,An AI assistant is a helper inside an app.
+314,23,multiple_choice,exercise,311,Which could an assistant do in email?,Print mail|Draft reply|Charge phone,1,,,Drafting a reply is a typical job for a built-in assistant.
+315,23,true_false,preview,316,An AI agent can carry out several steps itself.,,true,,,True. An agent works toward a goal on its own.
+316,23,multiple_choice,main,,What is an AI agent?,Single reply|Spelling checker|Multi-step doer,2,,,"An AI agent plans and carries out several steps on its own to reach a goal, like searching, writing and sending an email."
+317,23,true_false,exercise,316,An agent can complete a multi-step task on its own.,,true,,,True. Working through several steps without being told each one is what makes it an agent.
+318,23,select_blank,exercise,316,An agent works toward a ___.,goal|password|cutoff,0,,,An agent plans steps to reach a goal you give it.
+319,23,true_false,exercise,316,An agent only ever answers one question.,,false,,,"False. An agent can carry out several steps, not just one answer."
+320,24,true_false,preview,321,Free plans usually come with limits.,,true,,,True. A free tier limits use or features.
+321,24,multiple_choice,main,,What is a free tier?,Paid upgrade|Limited plan|Free trial,1,,,"A free tier is the no-cost version of a service, usually with limits on use or features. Paid plans usually raise those limits."
+322,24,true_false,exercise,321,A free tier often has usage limits.,,true,,,True. Limits on messages or features are common.
+323,24,select_blank,exercise,321,A paid plan usually has ___ limits.,no|random|higher,2,,,Paid plans typically raise the limits of the free tier.
+324,24,multiple_choice,exercise,321,Which is a free tier limit?,Daily messages|Free speech|Free-time rewards,0,,,A cap on daily messages is a typical free tier limit.
+325,24,true_false,preview,326,Different AI tools suit different tasks.,,true,,,True. Match the tool to the task you need.
+326,24,multiple_choice,main,,Which tool makes pictures from words?,Chatbot|Image generator|Meeting assistant,1,,,Match the tool to the task: different AI tools suit different jobs. An image generator makes pictures; a chatbot handles text.
+327,24,select_blank,exercise,326,Use chatbots for text and an ___ for pictures.,token|voice generator|image generator,2,,,An image generator turns a written description into a picture.
+328,24,true_false,exercise,326,A chatbot is the best tool for drawing pictures.,,false,,,False. An image generator is built to create pictures from descriptions.
+329,24,multiple_choice,exercise,326,Which tool suits writing an email?,Chatbot|Image generator|Transcript,0,,,"A chatbot works with text, so it suits drafting an email."
+330,25,true_false,preview,331,A prompt library stores your best prompts.,,true,,,True. A library saves you rewriting good prompts.
+331,25,multiple_choice,main,,What is a prompt library?,Public library|Saved prompts|Chat history,1,,,"A prompt library is your saved collection of best prompts. A workflow is the set of steps for a task, including where AI helps."
+332,25,select_blank,exercise,331,Saved best prompts form a prompt ___.,folder|cutoffs|library,2,,,A prompt library keeps your best prompts handy.
+333,25,true_false,exercise,331,A workflow is your steps for finishing a task.,,true,,,True. A workflow can include points where AI helps.
+334,25,multiple_choice,exercise,331,What does a workflow list?,Steps|Passwords|Tokens,0,,,A workflow lists the steps of a task.
+335,25,true_false,exercise,331,A prompt library saves you rewriting good prompts.,,true,,,True. You reuse what already works.
+336,25,true_false,preview,337,Release notes describe what changed in a tool.,,true,,,True. They help you keep up with updates.
+337,25,multiple_choice,main,,What are release notes?,Chat logs|Change summaries|Subscription lists,1,,,Release notes are short notes about what changed in a new version. Read them to stay current on AI tools.
+338,25,true_false,exercise,337,"AI tools change often, so re-check them.",,true,,,"True. Features and limits change, so re-check your tools now and then."
+339,25,select_blank,exercise,337,Read ___ notes to see what changed.,tokens|persona|release,2,,,Release notes describe what is new in a version.
+340,25,multiple_choice,exercise,337,Where do you learn what changed?,Release notes|Style samples|Transcripts,0,,,Release notes list the changes in a new version.
+341,25,true_false,preview,342,A prompt library and workflow help you reuse AI well.,,true,,,True. They turn one-off tricks into a routine.
+342,25,multiple_choice,main,,What do you fill in a template?,Tokens|Blanks|Notes,1,,,A prompt template has blanks you fill in each time.
+343,25,match_pairs,exercise,342,Match each term to its meaning.,Prompt template↔Reusable prompt|AI assistant↔Built-in helper|AI agent↔Multi-step doer|Free tier↔Limited plan,,,,Each term names a different part of your AI toolkit.
+344,25,true_false,exercise,342,An agent can do several steps itself.,,true,,,True. It plans and carries out steps toward a goal.
+345,25,multiple_choice,exercise,342,What saves your best prompts?,Memory settings|Transcript files|Prompt library,2,,,A prompt library is your saved collection of best prompts.
+346,25,select_blank,exercise,342,Paid plans usually raise free-tier ___.,limits|tokens|tones,0,,,Paid plans typically raise the limits of a free tier.
+347,25,multiple_choice,exercise,342,Where do you find tool updates?,Style samples|Release notes|Persona,1,,,Release notes describe what changed in a new version.
+348,25,true_false,exercise,342,A workflow is one single prompt.,,false,,,"False. A workflow is the set of steps for a task, which may include several prompts."
+349,25,match_pairs,exercise,342,Match each risk to its meaning.,Deepfake↔AI-made fake media|Voice cloning↔Copied voice|Phishing↔Fake trusted message|Copyright↔Creators' rights,,,,Each term is a risk or duty to keep in mind when using AI.
+350,25,match_pairs,exercise,342,Match each idea to its meaning.,Brainstorming↔Many ideas|Devil's advocate↔Argues against|Image generator↔Makes pictures|Sycophancy↔Flattering agreement,,,,"Each term describes a way AI helps, or a way it can mislead."

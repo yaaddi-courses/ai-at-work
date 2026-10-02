@@ -1,0 +1,62 @@
+term,definition,link,introduced_by_card_id
+Artificial intelligence,"Computer software that does things we usually expect a human mind to do, like understanding language, spotting patterns or making decisions.",https://en.wikipedia.org/wiki/Artificial_intelligence,2
+Machine learning,A way of building AI where the computer learns patterns from many examples instead of following rules a person wrote by hand.,https://en.wikipedia.org/wiki/Machine_learning,2
+Generative AI,"AI that creates brand-new content, such as text, images, audio or video, instead of only sorting or labelling things that already exist.",https://en.wikipedia.org/wiki/Generative_artificial_intelligence,8
+Large language model,"An AI system trained on huge amounts of text so it can read and write human language. ChatGPT, Claude and Gemini are built on these.",https://en.wikipedia.org/wiki/Large_language_model,13
+Training data,"The huge collection of text, images or other examples an AI learns from before you ever use it.","https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets",13
+Chatbot,A program you talk to by typing or speaking; it replies in conversation. Modern ones are powered by large language models.,https://en.wikipedia.org/wiki/Chatbot,19
+Next-word prediction,"How a language model writes: it repeatedly guesses the most likely next word, so it sounds fluent without checking whether the facts are true.",https://en.wikipedia.org/wiki/Language_model,19
+Knowledge cutoff,"The date after which an AI model has no training data, so it may not know about newer events unless it can search the web.",https://en.wikipedia.org/wiki/Large_language_model#Training,31
+Token,"A small chunk of text, often a short word or part of a word, that an AI reads and writes one piece at a time.",https://en.wikipedia.org/wiki/Large_language_model#Tokenization,37
+Context window,"The limit on how much text an AI can keep in view at once, covering your messages and its own replies in the current chat.",https://en.wikipedia.org/wiki/Large_language_model#Context_window,42
+Memory,"A feature that lets a chatbot save facts about you between chats, so you don't have to repeat them each time.",https://en.wikipedia.org/wiki/Memory,47
+Prompt,"The instruction or question you type to an AI. The clearer and more complete it is, the better the answer you get.",https://en.wikipedia.org/wiki/Prompt_engineering,52
+Persona,"A role you ask the AI to play, such as a friendly editor or a careful accountant, so it answers in the right style.",https://en.wikipedia.org/wiki/Persona,57
+Tone,"The attitude of a piece of writing, such as formal, friendly or firm. You can tell an AI which tone to use.",https://en.wikipedia.org/wiki/Register_(sociolinguistics),78
+Zero-shot prompting,Asking an AI to do a task with instructions only and no examples of what a good answer looks like.,https://en.wikipedia.org/wiki/Prompt_engineering#In-context_learning,90
+Few-shot prompting,"Showing an AI a few examples of what you want inside your prompt, so it copies the pattern in its answer.",https://en.wikipedia.org/wiki/Few-shot_learning,90
+Output format,"The shape you want the answer in, such as a table, a bullet list, an email or numbered steps.",https://en.wikipedia.org/wiki/Format_(computing),96
+Constraint,"A rule you give an AI that limits its answer, such as a word limit or a list of things to avoid.",https://en.wikipedia.org/wiki/Constraint,101
+Iteration,"Improving an answer through several rounds of follow-up requests, rather than expecting a perfect result from the first prompt.",https://en.wikipedia.org/wiki/Iteration,106
+Chain-of-thought prompting,"Asking an AI to work through a problem step by step before giving its final answer, which often makes the reasoning more accurate.",https://en.wikipedia.org/wiki/Prompt_engineering#Chain-of-thought,111
+Sycophancy,"When an AI agrees with you or flatters you instead of telling you the truth, especially if your question hints at the answer you want.",https://en.wikipedia.org/wiki/Sycophancy,122
+Hallucination,"When an AI states something false, like a made-up fact or source, in a confident and believable way.",https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence),135
+Primary source,"The original document or data behind a claim, such as a law, a study or an official page, instead of someone's summary of it.",https://en.wikipedia.org/wiki/Primary_source,151
+Citation,"A reference that says where a fact came from, such as a book, article or web link, so you can check it yourself.",https://en.wikipedia.org/wiki/Citation,156
+Grounding,"Giving an AI real material to base its answer on, such as your own document or live search results, so it is less likely to invent things.",https://en.wikipedia.org/wiki/Retrieval-augmented_generation,161
+Algorithmic bias,"When an AI gives unfair or skewed results for some groups of people, usually because of patterns in the data it learned from.",https://en.wikipedia.org/wiki/Algorithmic_bias,166
+Human in the loop,"A setup where a person reviews and approves what AI produces before it is used, instead of trusting it blindly.",https://en.wikipedia.org/wiki/Human-in-the-loop,171
+Personally identifiable information,"Any detail that can point to a specific person, such as a full name, home address, phone number or ID number.",https://en.wikipedia.org/wiki/Personal_data,186
+Confidential information,"Private details that your employer or clients expect you to keep secret, such as unreleased plans, contracts or customer records.",https://en.wikipedia.org/wiki/Confidentiality,191
+Data retention,"How long a company keeps the data you give it, such as chat history, and whether it can use it later.",https://en.wikipedia.org/wiki/Data_retention,196
+Opt-out,"A setting that lets you say no to something, such as letting a company train its AI on your chats.",https://en.wikipedia.org/wiki/Opt-out,196
+Acceptable use policy,"A set of rules from your employer or school that says what you may and may not do with certain tools, including AI.",https://en.wikipedia.org/wiki/Acceptable_use_policy,202
+Copyright,"The legal right of a creator to control who may copy, share or sell their work, which affects how you may reuse AI output.",https://en.wikipedia.org/wiki/Copyright,207
+Disclosure,"Telling people when AI helped create your work, which some workplaces, schools and publishers require.",https://en.wikipedia.org/wiki/Disclosure,207
+Deepfake,"A fake video, image or audio clip made with AI that convincingly shows someone saying or doing something they never did.",https://en.wikipedia.org/wiki/Deepfake,213
+Voice cloning,"Using AI to copy a real person's voice from a short recording, which scammers use to fake urgent calls from family.",https://en.wikipedia.org/wiki/Voice_cloning,218
+Phishing,A scam message that pretends to be from someone you trust to trick you into clicking a link or sharing private details.,https://en.wikipedia.org/wiki/Phishing,223
+Style sample,A piece of your own writing that you paste into a prompt so the AI copies your voice and word choices.,https://en.wikipedia.org/wiki/Writing_style,244
+Transcript,"A written, word-for-word record of a spoken meeting or call, which AI can turn into notes and summaries.",https://en.wikipedia.org/wiki/Transcription_(linguistics),254
+Analogy,A comparison that explains something new by likening it to something you already know well.,https://en.wikipedia.org/wiki/Analogy,260
+Data cleaning,"Fixing messy data, such as duplicates, typos and inconsistent formats, so it is ready to be analysed.",https://en.wikipedia.org/wiki/Data_cleansing,271
+Brainstorming,"Quickly producing many ideas without judging them first, so you can pick the best ones afterwards.",https://en.wikipedia.org/wiki/Brainstorming,282
+Devil's advocate,Someone who argues against an idea on purpose to expose weak points. You can ask an AI to play this role.,https://en.wikipedia.org/wiki/Devil%27s_advocate,293
+Prompt template,"A reusable prompt with blanks that you fill in each time, saving you from rewriting the same instructions.",https://en.wikipedia.org/wiki/Template_(word_processing),306
+AI assistant,"An AI helper built into an app you already use, such as email or documents, that can draft, summarize or answer questions.",https://en.wikipedia.org/wiki/Virtual_assistant,311
+AI agent,"An AI system that can plan and carry out several steps on its own, such as searching, writing and sending, to reach a goal.",https://en.wikipedia.org/wiki/Intelligent_agent,316
+Free tier,"The no-cost version of an online service, usually with limits on how much you can use it or which features you get.",https://en.wikipedia.org/wiki/Freemium,321
+Image generator,An AI tool that creates pictures from a written description you give it.,https://en.wikipedia.org/wiki/Text-to-image_model,326
+Prompt library,"A saved collection of your best prompts and templates, organised so you can reuse them quickly.",https://en.wikipedia.org/wiki/Library,331
+Workflow,"The set of steps you follow to get a task done, which can include AI at certain points along the way.",https://en.wikipedia.org/wiki/Workflow,331
+Release notes,"Short notes a company publishes about what changed in a new version of its product, useful for tracking AI tool updates.",https://en.wikipedia.org/wiki/Release_notes,337
+AI,"Short for artificial intelligence: software that does tasks we expect from a human mind, like understanding language.",https://www.ibm.com/think/topics/artificial-intelligence,2
+LLM,Short for large language model: an AI trained on huge amounts of text so it can read and write human language.,https://www.ibm.com/think/topics/large-language-models,13
+Chatbots,A program you talk to by typing or speaking; it replies in conversation. Modern ones are powered by large language models.,https://en.wikipedia.org/wiki/Chatbot,19
+Tokens,"A small chunk of text, often a short word or part of a word, that an AI reads and writes one piece at a time.",https://en.wikipedia.org/wiki/Large_language_model#Tokenization,37
+Prompts,"The instruction or question you type to an AI. The clearer and more complete it is, the better the answer you get.",https://en.wikipedia.org/wiki/Prompt_engineering,52
+Prompting,"The instruction or question you type to an AI. The clearer and more complete it is, the better the answer you get.",https://en.wikipedia.org/wiki/Prompt_engineering,52
+Tones,"The attitude of a piece of writing, such as formal, friendly or firm. You can tell an AI which tone to use.",https://en.wikipedia.org/wiki/Register_(sociolinguistics),78
+Citations,"A reference that says where a fact came from, such as a book, article or web link, so you can check it yourself.",https://en.wikipedia.org/wiki/Citation,156
+Style samples,A piece of your own writing that you paste into a prompt so the AI copies your voice and word choices.,https://en.wikipedia.org/wiki/Writing_style,244
+Transcripts,"A written, word-for-word record of a spoken meeting or call, which AI can turn into notes and summaries.",https://en.wikipedia.org/wiki/Transcription_(linguistics),254
