@@ -349,3 +349,57 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 348,25,true_false,exercise,342,A workflow is one single prompt.,,false,,,"False. A workflow is the set of steps for a task, which may include several prompts."
 349,25,match_pairs,exercise,342,Match each risk to its meaning.,Deepfake↔AI-made fake media|Voice cloning↔Copied voice|Phishing↔Fake trusted message|Copyright↔Creators' rights,,,,Each term is a risk or duty to keep in mind when using AI.
 350,25,match_pairs,exercise,342,Match each idea to its meaning.,Brainstorming↔Many ideas|Devil's advocate↔Argues against|Image generator↔Makes pictures|Sycophancy↔Flattering agreement,,,,"Each term describes a way AI helps, or a way it can mislead."
+351,1,multiple_choice,exam,,Machine learning is how AI learns:,Patterns|Passwords|Languages,0,,,It learns patterns from examples instead of following fixed rules.
+352,1,multiple_choice,exam,,Generative AI is built to:,Block spam|Create content|Delete data,1,,,"It makes new text, images, audio or video."
+353,1,true_false,exam,,Generative AI can only label what already exists.,,false,,,It creates brand-new content.
+354,2,multiple_choice,exam,,A large language model is trained on:,Huge text|Short videos|Spreadsheets,0,,,It reads and writes language because it learned from huge amounts of text.
+355,2,multiple_choice,exam,,A chatbot writes by predicting the next:,Password|Word|Image,1,,,It repeatedly guesses the likely next word.
+356,3,multiple_choice,exam,,AI is especially good at:,Exact maths|Recent news|First drafts,2,,,"Drafting, summarizing and spotting patterns are its strengths."
+357,3,true_false,exam,,AI is always right about exact maths.,,false,,,Exact maths and recent facts can be wrong.
+358,3,multiple_choice,exam,,A known weakness of AI is:,Pattern spotting|Outdated facts|Fast drafting,1,,,A knowledge cutoff leaves out recent information.
+359,4,multiple_choice,exam,,A token is a small chunk of:,Money|Memory chips|Text,2,,,"An AI reads text in tokens, often a short word or part of one."
+360,4,multiple_choice,exam,,A context window limits how much text AI:,Can see|Can recall|Can erase,0,,,"In very long chats, early messages can drop out of view."
+361,4,true_false,exam,,A new chat always remembers you.,,false,,,Without a memory feature it starts fresh.
+362,5,multiple_choice,exam,,A prompt is the:,Typed answer|Chosen model|Instruction,2,,,Clearer prompts usually get better answers.
+363,5,multiple_choice,exam,,"A good prompt names role, task, context and:",Format|Colour|Budget,0,,,"Role, task, context and format are the four parts."
+364,6,multiple_choice,exam,,Naming the audience helps the answer:,Cost nothing|Suit readers|Run quicker,1,,,The tone and level match who will read it.
+365,6,true_false,exam,,Sharing your goal helps the AI guess less.,,true,,,Background tells it what you need.
+366,7,multiple_choice,exam,,A few-shot prompt includes:,Examples|Passwords|Images only,0,,,The AI copies the pattern in your examples.
+367,7,true_false,exam,,A zero-shot prompt includes several examples.,,false,,,Zero-shot gives instructions only.
+368,8,multiple_choice,exam,,An output format sets the answer's:,Price|Speed|Shape,2,,,"For example a table, bullets or numbered steps."
+369,12,multiple_choice,exam,,A word limit is a:,Constraint|Template|Citation,0,,,A constraint is a rule that limits what the AI produces.
+370,9,multiple_choice,exam,,Iteration means improving over several:,Accounts|Rounds|Models,1,,,You send follow-up requests instead of expecting perfection.
+371,9,multiple_choice,exam,,Chain-of-thought prompting asks AI to think:,Quickly|Secretly|Stepwise,2,,,It can improve accuracy on multi-part problems.
+372,10,multiple_choice,exam,,A vague prompt gets a:,Vague answer|Perfect answer|Short answer,0,,,"The AI has to guess, so add specific details."
+373,10,multiple_choice,exam,,Sycophancy means an AI:,Ignores you|Flatters you|Refuses you,1,,,It agrees with you just to please you.
+374,10,true_false,exam,,Leading questions can make AI agree too easily.,,true,,,"Questions like ""Isn't my plan great?"" invite flattery."
+375,11,multiple_choice,exam,,A hallucination is a:,Confident falsehood|Slow reply|Long answer,0,,,The AI states something false in a believable way.
+376,11,true_false,exam,,A confident tone proves an answer is true.,,false,,,Fluent text only shows the AI predicts words well.
+377,11,multiple_choice,exam,,Which is a hallucination red flag?,Clear summaries|Friendly wording|Missing source,2,,,"AI can invent sources, quotes and numbers."
+378,12,multiple_choice,exam,,A primary source is the:,Original document|Latest summary|Best guess,0,,,For example a law or a study behind a claim.
+379,12,multiple_choice,exam,,An AI citation should be:,Ignored|Checked|Trusted,1,,,It may point to pages that do not exist.
+380,12,multiple_choice,exam,,Grounding gives an AI real:,Memory|Speed|Material,2,,,Pasted text or a search mode means it invents less.
+381,13,multiple_choice,exam,,AI can show bias because of its:,Training data|Screen size|Battery,0,,,Skewed data produces unfair results for some groups.
+382,14,multiple_choice,exam,,Human in the loop means a person:,Pays fees|Reviews output|Writes code,1,,,Someone approves high-stakes AI output before it is used.
+383,15,multiple_choice,exam,,Which is personal information?,Weather report|Public holiday|ID number,2,,,Any detail that points to a specific person counts.
+384,15,true_false,exam,,Customer data belongs in a public AI chat.,,false,,,It is confidential and should stay out.
+385,15,multiple_choice,exam,,Data retention means companies may:,Delete all|Keep chats|Share nothing,1,,,An opt-out setting can limit some uses.
+386,16,multiple_choice,exam,,An acceptable use policy sets what you:,Must buy|Can name|May do,2,,,Your employer may have rules for AI tools.
+387,16,multiple_choice,exam,,Copyright is a creator's legal:,Control|Discount|Backup,0,,,It affects reusing AI output.
+388,17,multiple_choice,exam,,A deepfake is an AI-made:,Backup file|Fake clip|Real recording,1,,,It convincingly shows someone doing or saying something they did not.
+389,17,true_false,exam,,Voice cloning needs only a short recording.,,true,,,Voice cloning needs only a short recording.
+390,17,multiple_choice,exam,,"To check an urgent request, you:",Call back|Reply fast|Forward it,0,,,Use a known number rather than the message's details.
+391,18,multiple_choice,exam,,A style sample is a piece of:,A law|Your writing|Someone's logo,1,,,The AI copies your voice and word choices.
+392,18,true_false,exam,,You can send an AI-drafted email without reading it.,,false,,,You still read it before sending.
+393,19,multiple_choice,exam,,An AI summary can:,Miss points|Never err|Add deadlines,0,,,It can drop or twist details such as a deadline.
+394,19,multiple_choice,exam,,A transcript can become notes and:,Photos|Action items|Passwords,1,,,Action items are the tasks to do next.
+395,20,multiple_choice,exam,,An analogy explains by:,Counting|Hiding|Comparing,2,,,It relates something new to something you already know.
+396,21,multiple_choice,exam,,Spot-check means re-calculating:,A few results|Everything twice|Nothing,0,,,Check one row or total before trusting the rest.
+397,22,multiple_choice,exam,,Brainstorming means producing many ideas without:,Sharing them|Judging them|Writing them,1,,,Pick the best ones afterwards.
+398,22,multiple_choice,exam,,A devil's advocate argues:,With you|For nobody|Against you,2,,,It exposes weak points in your idea.
+399,23,multiple_choice,exam,,A prompt template has blanks you:,Fill in|Delete|Encrypt,0,,,It saves retyping instructions each time.
+400,23,multiple_choice,exam,,An AI agent can carry out several:,Devices|Steps|Accounts,1,,,It plans and acts on its own to reach a goal.
+401,24,multiple_choice,exam,,A free tier usually has:,No users|Higher prices|Limits,2,,,It is the no-cost version with limits on use or features.
+402,24,multiple_choice,exam,,Which tool makes pictures from words?,Image generator|Spell checker|Calendar app,0,,,Match the tool to the task.
+403,25,multiple_choice,exam,,A prompt library stores your best:,Photos|Prompts|Passwords,1,,,It is your saved collection to reuse.
+404,25,multiple_choice,exam,,Release notes describe what:,Broke|Cost|Changed,2,,,Read them to stay current on AI tools.
