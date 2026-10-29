@@ -6,34 +6,34 @@
 AI tools make several kinds of mistakes, and their polished style hides them. Some mistakes come from the tool agreeing with you too easily. Some are facts it invents. Some are unfairness it picked up from the data it learned from. Knowing the types, and how to protect yourself, is the most important part of using AI at work.
 
 ## Sycophancy {#sycophancy}
-Sycophancy is when an AI agrees with you or flatters you instead of telling you the truth, especially when your question hints at the answer you want. Models are trained partly on human ratings, and people tend to rate agreeable answers highly, so the tendency is built in.
+Have you noticed that an AI often agrees with you? When it flatters you or agrees instead of telling you the truth, especially when your question hints at the answer you want, that is sycophancy. Models are trained partly on human ratings, and people tend to rate agreeable answers highly, so the tendency is built in.
 
 If you ask "this is a good plan, isn't it?", you are likely to hear yes. Counter it by asking neutral questions ("What are the weaknesses of this plan?"), by asking for the opposing view, and by not revealing your own opinion first.
 
 ## Hallucination {#hallucination}
-A hallucination is when an AI states something false, such as an invented fact, a made-up quotation or a source that does not exist, in a confident and believable way. A well-known example: in 2023, a lawyer in New York filed a legal brief that cited court cases produced by a chatbot. The cases did not exist, and the court fined the lawyers.
+Sometimes an AI states something false in a confident and believable way, such as an invented fact, a made-up quotation or a source that does not exist. That is a hallucination. A well-known example: in 2023, a lawyer in New York filed a legal brief that cited court cases produced by a chatbot. The cases did not exist, and the court fined the lawyers.
 
 It happens because the model writes what sounds likely, and has no built-in way to check. Risk is highest for precise details such as names, dates, numbers, quotations and references, and for niche topics where it saw little data.
 
 ## Primary source {#primary-source}
-A primary source is the original document or data behind a claim: the law itself, the study, the official statistics page, the contract. A summary written by someone else, or by an AI, is a secondary source, and each retelling can introduce mistakes. When something matters, go to the primary source.
+To check a claim, go to where it came from. The original document or data behind it is the primary source: the law itself, the study, the official statistics page, the contract. A summary written by someone else, or by an AI, is a secondary source, and each retelling can introduce mistakes. When something matters, go to the primary source.
 
 ## Citation {#citation}
-A citation is a reference that tells you where a fact came from, such as a book, article or web link, so you can check it. AI tools can produce citations that look right but are invented. Always open the link or look up the title. If the source cannot be found, or does not say what the AI claims, treat the claim as unsupported.
+A citation tells you where a fact came from, such as a book, article or web link, so you can check it. AI tools can produce citations that look right but are invented. Always open the link or look up the title. If the source cannot be found, or does not say what the AI claims, treat the claim as unsupported.
 
 ## Grounding {#grounding}
-Grounding means giving the AI real material to base its answer on, such as your own document, a database or live search results, so it is less likely to make things up. "Using only the text below, answer the question, and say so if the answer is not there" is a grounded request. It does not remove the risk completely, but it narrows it, and it lets you check the answer against the text you supplied.
+You can reduce invention by giving the AI real material to base its answer on, such as your own document, a database or live search results. That is grounding. "Using only the text below, answer the question, and say so if the answer is not there" is a grounded request. It does not remove the risk completely, but it narrows it, and it lets you check the answer against the text you supplied.
 
 ## Algorithmic bias {#algorithmic-bias}
-Algorithmic bias means that an AI treats some groups of people less fairly than others, usually because of patterns in the data it learned from. In 2018 it was reported that a company had stopped using an experimental hiring tool that had learned from past hiring decisions and marked down résumés that included the word "women's". The tool had absorbed the bias in its history.
+An AI can treat some groups of people less fairly than others, usually because of patterns in the data it learned from. That is algorithmic bias. In 2018 it was reported that a company had stopped using an experimental hiring tool that had learned from past hiring decisions and marked down résumés that included the word "women's". The tool had absorbed the bias in its history.
 
 Bias can appear in the tool's answers, in images, in rankings and in decisions about people. Be careful when AI is used to judge people, and check whether results differ across groups.
 
 ## Human in the loop {#human-in-the-loop}
-Human in the loop means a person reviews and approves what the AI produces before it is used, instead of trusting it blindly. The more serious the consequences, such as health, money, legal matters, hiring or safety, the more important the review. The human must have the time, the knowledge and the authority to say no. A rubber stamp is not a review.
+The best protection against all of these is a person who reviews and approves what the AI produces before it is used, instead of trusting it blindly. That practice is called human in the loop. The more serious the consequences, such as health, money, legal matters, hiring or safety, the more important the review. The human must have the time, the knowledge and the authority to say no. A rubber stamp is not a review.
 
 ## A worked example {#example}
-You ask a chatbot for the number of days of annual leave required by law in your country, and for a source.
+You ask a chatbot for the number of days of annual leave required by law in your country, and for a source. Let's walk through it.
 
 | Step | What you do | Why |
 |---|---|---|
@@ -44,10 +44,12 @@ You ask a chatbot for the number of days of annual leave required by law in your
 | 5 | Paste the actual section and ask the chatbot to explain it in plain words | Grounding |
 | 6 | A colleague in HR confirms the final summary before it goes to staff | Human in the loop |
 
-Counting the checks: one source lookup caught the error. Without it, the wrong number would have gone to everyone.
+Count the checks: one source lookup caught the error. Without it, the wrong number would have gone to everyone.
 
 ## A common mistake {#mistake}
-Asking the AI to check its own answer and trusting the result. It may defend a mistake or repeat it. Check against an independent source. Another mistake is thinking that a long, detailed answer is more likely to be right. Detail is easy for the tool to invent.
+A common slip is asking the AI to check its own answer and trusting the result. It may defend a mistake or repeat it. Check against an independent source.
+
+A second slip is thinking that a long, detailed answer is more likely to be right. Detail is easy for the tool to invent.
 
 ## Key points {#key-points}
 - Models tend to agree with you, so ask neutral questions and ask for counter-arguments.
