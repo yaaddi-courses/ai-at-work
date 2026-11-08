@@ -1,0 +1,61 @@
+section,deck,pack,level,keywords,terms,kind,main_card_id
+What AI Is,"What ""AI"" Really Means",What is artificial intelligence?,1,AI|Machine learning,Artificial intelligence|Machine learning,teach,2
+What AI Is,"What ""AI"" Really Means",What is generative AI?,1,Generative AI,Generative AI,teach,8
+What AI Is,How a Chatbot Works,What is a large language model?,1,LLM|Training data,Large language model|Training data,teach,13
+What AI Is,How a Chatbot Works,How does a chatbot answer?,1,Chatbot|Next-word prediction,Chatbot|Next-word prediction,teach,19
+What AI Is,What AI Does Well and Badly,Where does AI shine?,1,Drafting|Pattern spotting,,teach,25
+What AI Is,What AI Does Well and Badly,Where does AI struggle?,2,Out-of-date facts|Exact maths,Knowledge cutoff,teach,31
+What AI Is,"Tokens, Context and Memory",What is a token?,2,Token,Token,teach,37
+What AI Is,"Tokens, Context and Memory",What is a context window?,2,Context window,Context window,teach,42
+What AI Is,"Tokens, Context and Memory",Does a chatbot remember you?,2,Memory,Memory,teach,47
+Prompting Basics,Anatomy of a Prompt,What is a prompt?,1,Prompt,Prompt,teach,52
+Prompting Basics,Anatomy of a Prompt,What are the four parts of a prompt?,2,Role|Task|Context|Format,Persona,teach,57
+Prompting Basics,Anatomy of a Prompt,Review: how AI works and basic prompts,2,LLM|Token|Context window|Prompt|Role|Task|Context|Format,,review,67
+Prompting Basics,Be Specific,Who is it for and how should it sound?,2,Audience|Tone,Tone,teach,78
+Prompting Basics,Be Specific,Why add background and goals?,2,Background|Goal,,teach,84
+Prompting Basics,Show an Example,What are zero-shot and few-shot prompts?,3,Zero-shot|Few-shot,Zero-shot prompting|Few-shot prompting,teach,90
+Prompting Basics,Ask for a Format,How do you ask for an output format?,2,Output format,Output format,teach,96
+Prompting Basics,Ask for a Format,How do limits improve answers?,2,Constraint,Constraint,teach,101
+Prompting Basics,Iterate to Improve,Why should you follow up?,2,Iteration,Iteration,teach,106
+Prompting Basics,Iterate to Improve,What does think step by step do?,3,Step-by-step reasoning,Chain-of-thought prompting,teach,111
+Prompting Basics,Common Prompting Mistakes,How do you avoid vague and overloaded prompts?,2,Vague prompts|One task at a time,,teach,116
+Prompting Basics,Common Prompting Mistakes,What is sycophancy?,3,Sycophancy,Sycophancy,teach,122
+Prompting Basics,Common Prompting Mistakes,Review: better prompting,3,Audience|Few-shot|Format|Iteration|One task at a time|Sycophancy,,review,127
+Trust and Verification,Hallucinations,What is a hallucination?,2,Hallucination,Hallucination,teach,135
+Trust and Verification,Hallucinations,Why does a wrong answer sound sure?,2,Confident tone,,teach,140
+Trust and Verification,Hallucinations,What are common hallucination red flags?,3,Fake sources|Wrong numbers,,teach,145
+Trust and Verification,Checking Facts,Why check a primary source?,2,Primary source,Primary source,teach,151
+Trust and Verification,Checking Facts,Why open every citation?,3,Citation,Citation,teach,156
+Trust and Verification,Checking Facts,What is grounding?,3,Grounding,Grounding,teach,161
+Trust and Verification,Bias,What is algorithmic bias?,3,Algorithmic bias,Algorithmic bias,teach,166
+Trust and Verification,When Not to Use AI,Why keep a human in the loop?,3,Human in the loop,Human in the loop,teach,171
+Trust and Verification,When Not to Use AI,Review: trusting AI output,3,Hallucination|Primary source|Citation|Grounding|Algorithmic bias|Human in the loop,,review,176
+Safe and Responsible Use,Privacy,What is personal information?,2,Personal information,Personally identifiable information,teach,186
+Safe and Responsible Use,Privacy,Which secrets stay out of chats?,2,Confidential information,Confidential information,teach,191
+Safe and Responsible Use,Privacy,Where do your chats go?,3,Data retention|Opt-out,Data retention|Opt-out,teach,196
+Safe and Responsible Use,Policy and Copyright,Why follow your company's AI rules?,3,Acceptable use policy,Acceptable use policy,teach,202
+Safe and Responsible Use,Policy and Copyright,Who owns AI output?,4,Copyright|Disclosure,Copyright|Disclosure,teach,207
+Safe and Responsible Use,Deepfakes and AI Scams,What is a deepfake?,2,Deepfake,Deepfake,teach,213
+Safe and Responsible Use,Deepfakes and AI Scams,What is voice cloning?,3,Voice cloning,Voice cloning,teach,218
+Safe and Responsible Use,Deepfakes and AI Scams,How do you spot AI-written phishing?,3,Phishing,Phishing,teach,223
+Safe and Responsible Use,Deepfakes and AI Scams,Review: staying safe with AI,3,Personal information|Data retention|Acceptable use policy|Copyright|Deepfake|Phishing,,review,228
+AI at Work,Writing with AI,How do you draft and polish an email?,2,Draft|Proofread,,teach,238
+AI at Work,Writing with AI,How do you keep your own voice?,3,Style sample,Style sample,teach,244
+AI at Work,Summarizing,How do you summarize a long document?,2,Summary,,teach,249
+AI at Work,Summarizing,What can AI do with meeting notes?,3,Transcript|Action items,Transcript,teach,254
+AI at Work,Research and Learning,How do you learn a new topic fast?,2,Analogy,Analogy,teach,260
+AI at Work,Research and Learning,How do you compare options and plan study?,3,Pros and cons|Study plan,,teach,265
+AI at Work,Spreadsheets and Data,How can AI help with formulas and messy data?,3,Formulas|Data cleaning,Data cleaning,teach,271
+AI at Work,Spreadsheets and Data,How do you verify AI's numbers?,4,Spot-check,,teach,277
+AI at Work,Brainstorming and Planning,How do you brainstorm with AI?,2,Brainstorming,Brainstorming,teach,282
+AI at Work,Brainstorming and Planning,How do you plan a project with AI?,3,Project plan|Risks,,teach,287
+AI at Work,Brainstorming and Planning,How can AI push back on your idea?,4,Devil's advocate,Devil's advocate,teach,293
+AI at Work,Brainstorming and Planning,Review: everyday work tasks,4,Draft|Summary|Analogy|Data cleaning|Brainstorming|Devil's advocate,,review,298
+AI at Work,Automation,Why reuse prompts as templates?,3,Prompt template,Prompt template,teach,306
+AI at Work,Automation,What is an AI assistant inside your apps?,3,AI assistant,AI assistant,teach,311
+AI at Work,Automation,What is an AI agent?,4,AI agent,AI agent,teach,316
+Going Further,Choosing Tools,What is the difference between free and paid plans?,2,Free tier,Free tier,teach,321
+Going Further,Choosing Tools,How do you match a tool to a task?,3,Image generator,Image generator,teach,326
+Going Further,Your AI Workflow,How do you build a prompt library?,3,Prompt library|Workflow,Prompt library|Workflow,teach,331
+Going Further,Your AI Workflow,How do you stay current?,3,Release notes,Release notes,teach,337
+Going Further,Your AI Workflow,Review: your AI toolkit,4,Prompt template|AI assistant|AI agent|Free tier|Prompt library|Workflow,,review,342
