@@ -4,7 +4,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 3,1,multiple_choice,exercise,2,Which describes artificial intelligence?,Faster internet|Human-like tasks|Bigger televisions,1,,,"Artificial intelligence is software that does things we expect from a human mind, like understanding language."
 4,1,true_false,exercise,2,Machine learning needs a person to write every rule.,,false,,,False. Machine learning finds patterns in many examples instead of relying on hand-written rules.
 5,1,select_blank,exercise,2,Machine learning finds ___ in many examples.,passwords|pictures|patterns,2,,,"It studies many examples and picks up the patterns, rather than being told the rules."
-6,1,multiple_choice,exercise,2,Which task counts as AI?,Translating speech|Charging batteries|Printing documents,0,,,"Translating speech needs human-like language understanding, so it counts as AI."
+6,1,multiple_choice,exercise,2,Which task suits machine learning?,Translating speech|Charging batteries|Printing documents,0,,,"Translating speech needs human-like language skill, which machine learning picks up from many examples."
 7,1,true_false,preview,8,"Generative AI creates new text, images or audio.",,true,,,True. Generative AI makes brand-new content instead of only sorting what exists.
 8,1,multiple_choice,main,,What does generative AI do?,Organises files|Creates content|Deletes records,1,,,"Generative AI makes brand-new content, such as text, images, audio or video, instead of only labelling what already exists."
 9,1,multiple_choice,exercise,8,Which is generative AI at work?,Sorting mail|Counting steps|Writing poems,2,,,"Writing a brand-new poem from a request is creating new content, which is what generative AI does."

@@ -8,7 +8,7 @@ Most people try AI in bursts. They learn a trick, use it for a week and forget i
 ## Workflow {#workflow}
 Every task you do has steps, and the set of steps you follow is your workflow. AI can take part in some of them, and not others. A good workflow decides, for each step, who does it: you, the AI, or both with a check.
 
-Take writing a report. You decide the goal and gather the facts. The AI drafts an outline and a first version. You correct it and check every claim. The AI polishes the wording, and you approve and send. The AI appears in two places and you remain responsible for the rest.
+Take writing a report. You decide the goal and gather the facts. The AI drafts an outline and a first version. You correct it and check every claim. The AI polishes the wording, and you approve and send. The AI appears in three places, the outline, the first version and the polish, and you remain responsible for the rest.
 
 Write the workflow down once. Include the checks, since they are the steps that people skip when they are busy.
 

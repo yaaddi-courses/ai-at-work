@@ -33,7 +33,7 @@ A small team writes weekly status updates and wants to use AI. Let's go through 
 | 2 | An AI assistant in the team's document app | Sees the notes already open, so there is no copying |
 | 3 | An agent to collect updates from the chat and draft the report? Not yet | It would read private messages and send email, so the team waits until there are clear limits |
 | 4 | A free tier to test for a month | Low risk; checks whether it helps |
-| 5 | Check the privacy terms: the free tier trains on chats, so no client names go in | Protects confidential data |
+| 5 | Check the privacy terms: free tiers often train on chats, so no client names go in | Protects confidential data |
 | 6 | After a month, move to a business plan if it saves time | Better privacy and higher limits |
 
 Now count the benefit. If the update took 45 minutes a week by hand and now takes 15, the team saves 30 minutes a week. Over 52 weeks that is 1,560 minutes, which is 26 hours a year for each person.
